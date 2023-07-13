@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+    --azulYale: #00356B;
+    --beigeEscuro: #AA9060;
+
+    --fonteMontserrat: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: beige;
+    box-sizing: border-box;
+    color:black;
+}
+
+.cabecalho{
+    padding:2% 0% 0% 15%;
+}
+
+.cabecalho_menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho_menu_link{
+    font-family: var(--fonteMontserrat);
+    font-size: 1.5rem;
+    color: var(--azulYale);
+    text-decoration: none;  
+}
+
+.apresentacao{
+    padding: 6% 10%;
+    display: flex;
+    align-items: center;
+    gap: 82px;
+    justify-content: space-between;
+}
+
+.apresentacao_links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao_links_subtitulo{
+    font-family: var(--fontePrincipal);
+    color: var(--azulYale);
+    font-size: 1.5rem;
+}
+
+
+.apresentacao_links_link{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 35%;
+    text-align: center;
+    border-radius: 8px;
+    border: 3px solid var(--azulYale);
+    color: black;
+    font-size: 1.5rem;
+    padding: 14px 0;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.apresentacao_links_link:hover{
+    background-color: var(--beigeEscuro);
+    transition: 0.4s;
+
+}
+
+.apresentacao_imagem{
+    width: 40%;    
+}
+
+.apresentacao_conteudo_titulo{
+    color: var(--azulYale);
+}
+
+
+.apresentacao_conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao_conteudo_titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+.apresentacao_conteudo_texto{
+    font-size: 1.5rem;
+}
+
+.foto_jogo{
+    height: 320px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+}
+
+
+.texto_jogos{
+    color: var(--azulYale);
+}
+
+
